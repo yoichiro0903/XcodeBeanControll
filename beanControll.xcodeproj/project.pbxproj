@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC20DC1C1A3416650080518F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC20DC1B1A3416650080518F /* main.m */; };
+		AC20DC1F1A3416650080518F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC20DC1E1A3416650080518F /* AppDelegate.m */; };
+		AC20DC221A3416650080518F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC20DC211A3416650080518F /* ViewController.m */; };
+		AC20DC251A3416650080518F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC20DC231A3416650080518F /* Main.storyboard */; };
+		AC20DC271A3416650080518F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC20DC261A3416650080518F /* Images.xcassets */; };
+		AC20DC2A1A3416650080518F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC20DC281A3416650080518F /* LaunchScreen.xib */; };
+		AC20DC361A3416650080518F /* beanControllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC20DC351A3416650080518F /* beanControllTests.m */; };
+		AC20DC401A34167B0080518F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC20DC3F1A34167B0080518F /* CoreBluetooth.framework */; };
+		AC20DC441A3417550080518F /* BluetoothConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AC20DC431A3417550080518F /* BluetoothConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC20DC301A3416650080518F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC20DC0E1A3416650080518F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC20DC151A3416650080518F;
+			remoteInfo = beanControll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC20DC161A3416650080518F /* beanControll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beanControll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC20DC1A1A3416650080518F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC20DC1B1A3416650080518F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC20DC1D1A3416650080518F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC20DC1E1A3416650080518F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC20DC201A3416650080518F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC20DC211A3416650080518F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC20DC241A3416650080518F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC20DC261A3416650080518F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC20DC291A3416650080518F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC20DC2F1A3416650080518F /* beanControllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beanControllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC20DC341A3416650080518F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC20DC351A3416650080518F /* beanControllTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beanControllTests.m; sourceTree = "<group>"; };
+		AC20DC3F1A34167B0080518F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AC20DC421A3417550080518F /* BluetoothConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BluetoothConnection.h; path = ../BluetoothConnection.h; sourceTree = "<group>"; };
+		AC20DC431A3417550080518F /* BluetoothConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BluetoothConnection.m; path = ../BluetoothConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC20DC131A3416650080518F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC20DC401A34167B0080518F /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC20DC2C1A3416650080518F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC20DC0D1A3416650080518F = {
+			isa = PBXGroup;
+			children = (
+				AC20DC3F1A34167B0080518F /* CoreBluetooth.framework */,
+				AC20DC181A3416650080518F /* beanControll */,
+				AC20DC321A3416650080518F /* beanControllTests */,
+				AC20DC171A3416650080518F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC20DC171A3416650080518F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DC161A3416650080518F /* beanControll.app */,
+				AC20DC2F1A3416650080518F /* beanControllTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC20DC181A3416650080518F /* beanControll */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DC1D1A3416650080518F /* AppDelegate.h */,
+				AC20DC1E1A3416650080518F /* AppDelegate.m */,
+				AC20DC201A3416650080518F /* ViewController.h */,
+				AC20DC211A3416650080518F /* ViewController.m */,
+				AC20DC421A3417550080518F /* BluetoothConnection.h */,
+				AC20DC431A3417550080518F /* BluetoothConnection.m */,
+				AC20DC231A3416650080518F /* Main.storyboard */,
+				AC20DC261A3416650080518F /* Images.xcassets */,
+				AC20DC281A3416650080518F /* LaunchScreen.xib */,
+				AC20DC191A3416650080518F /* Supporting Files */,
+			);
+			path = beanControll;
+			sourceTree = "<group>";
+		};
+		AC20DC191A3416650080518F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DC1A1A3416650080518F /* Info.plist */,
+				AC20DC1B1A3416650080518F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC20DC321A3416650080518F /* beanControllTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DC351A3416650080518F /* beanControllTests.m */,
+				AC20DC331A3416650080518F /* Supporting Files */,
+			);
+			path = beanControllTests;
+			sourceTree = "<group>";
+		};
+		AC20DC331A3416650080518F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC20DC341A3416650080518F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC20DC151A3416650080518F /* beanControll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC20DC391A3416650080518F /* Build configuration list for PBXNativeTarget "beanControll" */;
+			buildPhases = (
+				AC20DC121A3416650080518F /* Sources */,
+				AC20DC131A3416650080518F /* Frameworks */,
+				AC20DC141A3416650080518F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beanControll;
+			productName = beanControll;
+			productReference = AC20DC161A3416650080518F /* beanControll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC20DC2E1A3416650080518F /* beanControllTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC20DC3C1A3416650080518F /* Build configuration list for PBXNativeTarget "beanControllTests" */;
+			buildPhases = (
+				AC20DC2B1A3416650080518F /* Sources */,
+				AC20DC2C1A3416650080518F /* Frameworks */,
+				AC20DC2D1A3416650080518F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC20DC311A3416650080518F /* PBXTargetDependency */,
+			);
+			name = beanControllTests;
+			productName = beanControllTests;
+			productReference = AC20DC2F1A3416650080518F /* beanControllTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC20DC0E1A3416650080518F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = YoichiroWatanabe;
+				TargetAttributes = {
+					AC20DC151A3416650080518F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AC20DC2E1A3416650080518F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = AC20DC151A3416650080518F;
+					};
+				};
+			};
+			buildConfigurationList = AC20DC111A3416650080518F /* Build configuration list for PBXProject "beanControll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC20DC0D1A3416650080518F;
+			productRefGroup = AC20DC171A3416650080518F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC20DC151A3416650080518F /* beanControll */,
+				AC20DC2E1A3416650080518F /* beanControllTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC20DC141A3416650080518F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC20DC251A3416650080518F /* Main.storyboard in Resources */,
+				AC20DC2A1A3416650080518F /* LaunchScreen.xib in Resources */,
+				AC20DC271A3416650080518F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC20DC2D1A3416650080518F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC20DC121A3416650080518F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC20DC221A3416650080518F /* ViewController.m in Sources */,
+				AC20DC1F1A3416650080518F /* AppDelegate.m in Sources */,
+				AC20DC441A3417550080518F /* BluetoothConnection.m in Sources */,
+				AC20DC1C1A3416650080518F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC20DC2B1A3416650080518F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC20DC361A3416650080518F /* beanControllTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC20DC311A3416650080518F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC20DC151A3416650080518F /* beanControll */;
+			targetProxy = AC20DC301A3416650080518F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC20DC231A3416650080518F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC20DC241A3416650080518F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC20DC281A3416650080518F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC20DC291A3416650080518F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC20DC371A3416650080518F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC20DC381A3416650080518F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC20DC3A1A3416650080518F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = beanControll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC20DC3B1A3416650080518F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = beanControll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC20DC3D1A3416650080518F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = beanControllTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beanControll.app/beanControll";
+			};
+			name = Debug;
+		};
+		AC20DC3E1A3416650080518F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = beanControllTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beanControll.app/beanControll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC20DC111A3416650080518F /* Build configuration list for PBXProject "beanControll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC20DC371A3416650080518F /* Debug */,
+				AC20DC381A3416650080518F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC20DC391A3416650080518F /* Build configuration list for PBXNativeTarget "beanControll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC20DC3A1A3416650080518F /* Debug */,
+				AC20DC3B1A3416650080518F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC20DC3C1A3416650080518F /* Build configuration list for PBXNativeTarget "beanControllTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC20DC3D1A3416650080518F /* Debug */,
+				AC20DC3E1A3416650080518F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC20DC0E1A3416650080518F /* Project object */;
+}
